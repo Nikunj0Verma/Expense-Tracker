@@ -13,7 +13,7 @@ mongoose
 .catch((err) => console.log(err));
 
 const corsOptions={
-    origin: ['http://localhost:5174'],
+    origin: ['http://localhost:5175'],
 };
 app.use(cors(corsOptions));
 
