@@ -13,7 +13,7 @@ mongoose
 .catch((err) => console.log(err));
 
 const corsOptions={
-    origin: ['http://localhost:5173'],
+    origin: ['https://expense-tracker-bee9.onrender.com'],
 };
 app.use(cors(corsOptions));
 
