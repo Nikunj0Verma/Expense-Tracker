@@ -12,10 +12,10 @@ mongoose
 .then(() => console.log("MongoDB connected"))
 .catch((err) => console.log(err));
 
-// const corsOptions={
-//     origin: ['https://expense-tracker-bee9.onrender.com'],
-// };
-// app.use(cors(corsOptions));
+const corsOptions={
+    origin: ['http://localhost:5173'],
+};
+app.use(cors(corsOptions));
 
 
 app.use(express.json());
