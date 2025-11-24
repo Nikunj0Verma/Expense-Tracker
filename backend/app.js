@@ -8,7 +8,7 @@ const transactionRouter = require("./routes/transactionRouter");
 const app = express();
 
 mongoose
-.connect("mongodb://localhost:27017/mern-expense")
+.connect("mongodb+srv://nik:tgko0025@cluster0.nwqqfj8.mongodb.net/?appName=Cluster0")
 .then(() => console.log("MongoDB connected"))
 .catch((err) => console.log(err));
 
