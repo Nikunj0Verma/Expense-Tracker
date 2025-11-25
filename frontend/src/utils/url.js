@@ -1,1 +1,1 @@
-export const BASE_URL="https://expense-tracker-4-de4v.onrender.com/api/v1";
+export const BASE_URL="http://localhost:8000/api/v1";
