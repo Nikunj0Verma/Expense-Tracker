@@ -1,1 +1,1 @@
-export const BASE_URL="https://expense-tracker-bee9.onrender.com/api/v1";
+export const BASE_URL="https://expense-tracker-3-dw2i.onrender.com/api/v1";
